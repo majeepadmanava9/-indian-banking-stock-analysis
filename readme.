@@ -1,0 +1,78 @@
+# Indian Banking Sector – Stock Market Analysis
+
+## Project Overview
+
+This project analyzes five major Indian banking stocks using Python and financial analytics techniques.
+
+The stocks analyzed are:
+
+- HDFC Bank
+- ICICI Bank
+- Kotak Mahindra Bank
+- Axis Bank
+- State Bank of India (SBI)
+
+The analysis uses two years of daily adjusted closing-price data from 14 August 2024 to 14 August 2026.
+
+## Objectives
+
+The project evaluates the selected banking stocks using:
+
+- Exploratory Data Analysis (EDA)
+- Stock price and return analysis
+- Risk and volatility analysis
+- Sharpe ratio
+- Maximum drawdown
+- Moving averages
+- Rolling volatility
+- Linear Regression
+- Logistic Regression
+- K-Means Clustering
+- Data visualization
+
+## Tools and Libraries
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- yfinance
+
+## Key Findings
+
+- SBI recorded the highest cumulative return of 38.08% and an annualised return of 18.77% during the study period.
+- Kotak Mahindra Bank recorded the lowest annualised volatility at 18.67% and the shallowest maximum drawdown at -18.37%.
+- The Logistic Regression model achieved 56.38% classification accuracy for HDFC Bank, indicating limited short-term predictability using the selected historical price-based features.
+- K-Means clustering grouped the five banking stocks according to their risk-return characteristics.
+
+## Data Source
+
+Historical daily adjusted closing-price data was obtained from Yahoo Finance using the `yfinance` Python library.
+
+## Project Structure
+
+```text
+indian-banking-stock-analysis/
+│
+├── banking_stock_analysis.py
+├── README.md
+└── graphics/
+    ├── price_history.png
+    ├── return_distribution.png
+    ├── correlation_heatmap.png
+    ├── cumulative_return.png
+    ├── risk_return.png
+    └── kmeans_clustering.png
+
+## Disclaimer
+
+This project is for educational and analytical purposes only. The findings are based on historical market data and model outputs and do not guarantee future performance.
+
+## Author
+
+Sagnik Chakraborty
+
+Python for Finance & Stock Market Analytics  
+AlphaEdge Capital
